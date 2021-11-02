@@ -1381,7 +1381,7 @@ section.lazy-placeholder:after {
   z-index: 3;
   color: #ffffff;
   opacity: 0;
-  text-align: center;
+  text-align: left;
 }
 .cid-sBTNAfuEN4 .img-svg {
   transition: all 0.3s;
@@ -1778,6 +1778,69 @@ section.lazy-placeholder:after {
 }
 .cid-sBTNTetUf5 .mbr-section-title {
   color: #1a449a;
+}
+.cid-sNBj4tb4sh {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  background-color: #1a449a;
+}
+@media (min-width: 1400px) {
+  .cid-sNBj4tb4sh .col-12 {
+    padding: 0 2rem;
+  }
+  .cid-sNBj4tb4sh .row {
+    margin: 0 -2rem;
+  }
+}
+.cid-sNBj4tb4sh .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+.cid-sNBj4tb4sh .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.cid-sNBj4tb4sh .counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a449a;
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  content: "✓";
+}
+.cid-sNBj4tb4sh .svg-top {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -48px;
+  height: 50px;
+  transform-origin: bottom;
+  animation: 1.5s ease-in-out infinite alternate svg-wave;
+  fill: #1a449a;
+}
+.cid-sNBj4tb4sh .svg-top .st0 {
+  fill: #1a449a;
+}
+@media (max-width: 992px) {
+  .cid-sNBj4tb4sh .svg-top {
+    width: 1000px;
+  }
+}
+.cid-sNBj4tb4sh .mbr-text {
+  color: #ffffff;
+}
+.cid-sNBj4tb4sh .mbr-section-title {
+  color: #ffffff;
 }
 .cid-sBTNV7y86A {
   padding-top: 7rem;
@@ -2181,6 +2244,7 @@ section.lazy-placeholder:after {
   list-style: none;
   padding-left: 0;
   color: #ffffff;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .cid-sBTO1eabjO .list {
